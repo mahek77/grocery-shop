@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Snacks</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="logo.webp" alt="Grocery Store Logo" class="logo">
+            <span class="store-name">FreshMart Grocery</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fruits.html">Fruits</a></li>
+            <li><a href="dairyproducts.html">Dairy Products</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="vegetables.html">Vegetables</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="Snacks">
+        <h2>Snacks</h2>
+        <div class="snack-container">
+            <div class="snack-products">
+                <img src="https://th.bing.com/th/id/OIP.sMUgf9zGU21EdVBBh_o73AHaEK?rs=1&pid=ImgDetMain" alt="Chips">
+                <p>Potato Chips<br> 100 PKR/pack</p>
+                <button onclick="addToCart({ name: 'Potato Chips', price: 100 })">Add to cart</button>
+            </div>
+            <div class="snack-products">
+                <img src="https://th.bing.com/th/id/OIP.Zp83rbSbqYsuuX5EywjQnQHaGM?rs=1&pid=ImgDetMain" alt="Biscuits">
+                <p>Biscuits<br> 200 PKR/pack</p>
+                <button onclick="addToCart({ name: 'Biscuits', price: 200 })">Add to cart</button>
+            </div>
+            <div class="snack-products">
+                <img src="https://th.bing.com/th/id/R.3dd077272e22191ec583d036f8d90b2b?rik=inN2434Hyr%2bmVQ&pid=ImgRaw&r=0" alt="Popcorn">
+                <p>Popcorn<br> 100 PKR/pack</p>
+                <button onclick="addToCart({ name: 'Popcorn', price: 100 })">Add to cart</button>
+            </div>
+            <div class="snack-products">
+                <img src="https://th.bing.com/th/id/OIP.QsAebbl-bBf5oUHKDC53agHaFW?rs=1&pid=ImgDetMain" alt="Chocolate">
+                <p>Chocolate Bars<br> 120 PKR/3 piece</p>
+                <button onclick="addToCart({ name: 'Chocolate Bars', price: 120 })">Add to cart</button>
+            </div>
+            <!-- Add more snacks as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 827982489028</p>
+        <p>📧 support@freshmart.com</p>
+    </section>
+
+    <footer>
+        <p>Instagram: <a href="https://www.instagram.com/">Instagram</a>  Facebook: <a href="https://www.facebook.com/">Facebook</a></p>
+        <p>&copy; 2024 FreshMart Grocery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

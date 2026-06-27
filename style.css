@@ -1,0 +1,424 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.store-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.project-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Home */
+#home {
+    text-align: center;
+    padding: 40px 0;
+    background: #39943c;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+#home p {
+    font-size: 1.4rem;
+}
+
+#home button {
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #39943c;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#home button:hover {
+    background-color: #000000;
+    transform: translateY(10px);
+}
+
+#home button a {
+    color: #248a2c;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* About */
+#about {
+    padding: 40px;
+    background-color: #D6EFD8;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #39943c;
+}
+
+#about p {
+    font-size: 1.4rem;
+}
+
+/* Products */
+#products {
+    padding: 40px 20px;
+    background-color: #f0f7ef;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.product button {
+    padding: 12px 25px;
+    background-color: #317833;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #010d02;
+    transform: translateY(10px);
+}
+
+/* Offers Section */
+#offers {
+    background-color: #248a2c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 0;
+}
+
+#offers h2 {
+    font-size: 2rem;
+}
+
+#offers p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #b6dfba;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #39943c;
+}
+
+#contact p {
+    font-size: 1.4rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+/* Vegetables */
+.Vegetables {
+    padding: 20px;
+    text-align: center;
+    background-color: #dfede1;
+    color: #248a2c;
+    font-size: 1.5rem;
+}
+
+.veg-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.veg-products {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.veg-products:hover {
+    transform: translateY(-10px);
+}
+
+.veg-products img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.veg-products p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translatey(10px);
+}
+
+/* Fruits */
+.Fruits {
+    padding: 20px;
+    text-align: center;
+    background-color: #dfede1;
+    color: #248a2c;
+    font-size: 1.5rem;
+}
+
+.Fruits h2 {
+    color: #248a2c;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.fruit-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fruit-products {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.fruit-products:hover {
+    transform: translateY(-10px);
+}
+
+.fruit-products img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.fruit-products p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.fruit-products button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.fruit-products button:hover {
+    background-color: #218838;
+}
+
+/* Dairy Products */
+.Dairy {
+    padding: 20px;
+    text-align: center;
+    background-color: #dfede1;
+    color: #248a2c;
+    font-size: 1.5rem;
+}
+
+.Dairy h2 {
+    color: #248a2c;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.dairy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dairy-products {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dairy-products:hover {
+    transform: translateY(-10px);
+}
+
+.dairy-products img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.dairy-products p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.dairy-products button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.dairy-products button:hover {
+    background-color: #218838;
+}
+
+/* Snacks */
+.Snacks {
+    padding: 20px;
+    text-align: center;
+    background-color: #dfede1;
+    color: #248a2c;
+    font-size: 1.5rem;
+}
+
+.Snacks h2 {
+    color: #248a2c;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.snack-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.snack-products {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

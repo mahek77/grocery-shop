@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Dairy Products</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="logo.webp" alt="Grocery Store Logo" class="logo">
+            <span class="store-name">FreshMart Grocery</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fruits.html">Fruits</a></li>
+            <li><a href="dairyproducts.html">Dairy Products</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="vegetables.html">Vegetables</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="Dairy">
+        <h2>Dairy Products</h2>
+        <div class="dairy-container">
+            <div class="dairy-products">
+                <img src="https://th.bing.com/th/id/OIP.RSWsVT0Hb7UezSE9YHjYnQHaEc?rs=1&pid=ImgDetMain" alt="Milk">
+                <p>Fresh Milk<br> 120 PKR/litre</p>
+                <button onclick="addToCart({ name: 'Fresh Milk', price: 120 })">Add to cart</button>
+            </div>
+            <div class="dairy-products">
+                <img src="https://th.bing.com/th/id/OIP.Qb73uTmcsyqGKPr0Q4PMWgHaE7?rs=1&pid=ImgDetMain" alt="Butter">
+                <p>Butter<br> 200 PKR/500g</p>
+                <button onclick="addToCart({ name: 'Butter', price: 200 })">Add to cart</button>
+            </div>
+            <div class="dairy-products">
+                <img src="https://th.bing.com/th/id/R.570ddc9bd2c513838f36baba3b560b3f?rik=Y08HpFJxA20GoA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-diDEssV-lFQ%2fUpMmIXp4ykI%2fAAAAAAAAAR0%2f37xifdicBCI%2fs1600%2fcheese.jpg&ehk=LeuMkkP3Yv0uGb7IA8%2fGzbOJUJ4ofLt%2fOjoMB%2b%2bkz9I%3d&risl=&pid=ImgRaw&r=0" alt="Cheese">
+                <p>Cheese<br> 500 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Cheese', price: 500 })">Add to cart</button>
+            </div>
+            <div class="dairy-products">
+                <img src="https://kitchensubstitute.com/wp-content/uploads/2021/09/sour-cream.jpg" alt="Yogurt">
+                <p>Yogurt<br> 100 PKR/500g</p>
+                <button onclick="addToCart({ name: 'Yogurt', price: 100 })">Add to cart</button>
+            </div>
+            <!-- Add more dairy products as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 827982489028</p>
+        <p>📧 support@freshmart.com</p>
+    </section>
+
+    <footer>
+        <p>Instagram: <a href="https://www.instagram.com/">Instagram</a>  Facebook: <a href="https://www.facebook.com/">Facebook</a></p>
+        <p>&copy; 2024 FreshMart Grocery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

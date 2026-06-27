@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Vegetables</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="logo.webp" alt="Grocery Store Logo" class="logo">
+            <span class="store-name">FreshMart Grocery</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fruits.html">Fruits</a></li>
+            <li><a href="dairyproducts.html">Dairy Products</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="vegetables.html">Vegetables</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="Vegetables">
+        <h2>Vegetables</h2>
+        <div class="veg-container">
+            <div class="veg-products">
+                <img src="https://th.bing.com/th/id/R.254ea32f388be04f6ba8d1d436122741?rik=McwMiNIhyC%2fUsg&pid=ImgRaw&r=0" alt="potato">
+                <p>Fresh Potatoes <br> 50 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Fresh Potatoes', price: 50 })">Add to cart</button>
+            </div>
+            <div class="veg-products">
+                <img src="https://th.bing.com/th/id/OIP.kNiJM15wvcqnBUY6vPYRqQHaE7?rs=1&pid=ImgDetMain" alt="tomatoes">
+                <p>Fresh Tomatoes <br> 80 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Fresh Tomatoes', price: 80 })">Add to cart</button>
+            </div>
+            <div class="veg-products">
+                <img src="https://th.bing.com/th/id/OIP.q5imAws59oO_9kpVV-wlygHaEH?rs=1&pid=ImgDetMain" alt="Onion">
+                <p>Onion <br> 70 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Onion', price: 70 })">Add to cart</button>
+            </div>
+            <div class="veg-products">
+                <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/282/282844/cauliflower-is-rich-in-nutrients-and-fiber.jpg" alt="cauliflower">
+                <p>Cauliflower <br> 60 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Cauliflower', price: 60 })">Add to cart</button>
+            </div>
+            <!-- Add more vegetables as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 827982489028</p>
+        <p>📧 support@freshmart.com</p>
+    </section>
+
+    <footer>
+        <p>Instagram: <a href="https://www.instagram.com/">Instagram</a>  Facebook: <a href="https://www.facebook.com/">Facebook</a></p>
+        <p>&copy; 2024 FreshMart Grocery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

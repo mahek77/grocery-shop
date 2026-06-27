@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Fruits</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="logo.webp" alt="Grocery Store Logo" class="logo">
+            <span class="store-name">FreshMart Grocery</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fruits.html">Fruits</a></li>
+            <li><a href="dairyproducts.html">Dairy Products</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="vegetables.html">Vegetables</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="Fruits">
+        <h2>Fruits</h2>
+        <div class="fruit-container">
+            <div class="fruit-products">
+                <img src="https://th.bing.com/th/id/R.a2ab10f92d9ca02c5528421014d53875?rik=NDb6ah5tNLQz1g&riu=http%3a%2f%2fapple.gop%2fmedia%2fuploads%2fzinnia%2fRubens_apples_on_plate.jpg&ehk=GYD%2bB0IezSB1Af2rLdd%2bXS9AEbaO36h5J0JTEQmiHpc%3d&risl=&pid=ImgRaw&r=0" alt="Apples">
+                <p>Apples <br> 120 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Apples', price: 120 })">Add to cart</button>
+            </div>
+            <div class="fruit-products">
+                <img src="https://th.bing.com/th/id/R.ab011a2c1e34c5562d0bb78493a35e7e?rik=KFTTNefVuqx%2blA&pid=ImgRaw&r=0" alt="Bananas">
+                <p>Bananas <br> 60 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Bananas', price: 60 })">Add to cart</button>
+            </div>
+            <div class="fruit-products">
+                <img src="https://th.bing.com/th/id/R.36b88f9813f8e98ffb7db8c241699161?rik=jlFJa2ZDEQM13Q&pid=ImgRaw&r=0" alt="Oranges">
+                <p>Oranges <br> 80 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Oranges', price: 80 })">Add to cart</button>
+            </div>
+            <div class="fruit-products">
+                <img src="https://th.bing.com/th/id/R.b063955435c8c5cb4f191777468a58a7?rik=MbgA%2b2vIyNc%2bcw&pid=ImgRaw&r=0" alt="Grapes">
+                <p>Grapes <br> 150 PKR/kg</p>
+                <button onclick="addToCart({ name: 'Grapes', price: 150 })">Add to cart</button>
+            </div>
+            <!-- Add more fruits as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 827982489028</p>
+        <p>📧 support@freshmart.com</p>
+    </section>
+
+    <footer>
+        <p>Instagram: <a href="https://www.instagram.com/">Instagram</a>  Facebook: <a href="https://www.facebook.com/">Facebook</a></p>
+        <p>&copy; 2024 FreshMart Grocery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
