@@ -388,37 +388,61 @@ button:hover {
     background-color: #218838;
 }
 
-/* Snacks */
+/* Snacks Section */
 .Snacks {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
-    background-color: #dfede1;
-    color: #248a2c;
-    font-size: 1.5rem;
-}
-
-.Snacks h2 {
-    color: #248a2c;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: bold;
 }
 
 .snack-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
 
 .snack-products {
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 20px;
-    width: 200px;
-    margin: 10px;
+    width: 250px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: 0.3s;
 }
 
-a{
+.snack-products:hover {
+    transform: translateY(-5px);
+}
+
+/* Makes all images exactly the same size */
+.snack-products img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.snack-products p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    min-height: 60px;
+}
+
+.snack-products button {
+    background: green;
     color: white;
-    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.snack-products button:hover {
+    background: darkgreen;
 }
